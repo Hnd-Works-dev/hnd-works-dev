@@ -172,6 +172,7 @@ img {
     margin-bottom: var(--spacing-md);
     background: linear-gradient(to right, var(--color-primary), #00a2ff);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -297,6 +298,16 @@ img {
 
 .footer__link:hover {
     color: var(--color-primary);
+}
+
+/* Privacy Policy Content Links */
+.privacy-content a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.privacy-content a:hover {
+    color: var(--color-primary-dark);
 }
 
 /* Responsive Design */
